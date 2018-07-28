@@ -11,6 +11,10 @@ html {
   overflow: none;
 }
 
+.hero {
+  height: 100vh;
+}
+
 h1 {
   text-align: center;
   position: relative;
@@ -40,9 +44,9 @@ h1 {
 }
 
 #rugMainBody {
+  height: 100vh;
   width: 500px;
   margin: 0 auto;
-  height: 100%;
   padding: 0;
   position: absolute;
   top: 30%;

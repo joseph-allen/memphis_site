@@ -3,6 +3,7 @@ import { MuiThemeProvider } from "@material-ui/core/styles";
 import { withRouter } from "react-router";
 import theme from "./styles/theme";
 import Hero from "./components/hero/hero";
+import AboutMe from "./components/aboutMe/aboutMe";
 
 require("./App.css");
 
@@ -11,8 +12,8 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="App">
-          <p>test</p>
           <Hero />
+          <AboutMe />
         </div>
       </MuiThemeProvider>
     );

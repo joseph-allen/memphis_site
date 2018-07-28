@@ -1,0 +1,86 @@
+.aboutMe {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8Y2lyY2xlIGN4PSczJyBjeT0nMycgcj0nMycgZmlsbD0nYmxhY2snLz4KPC9zdmc+Cg==");
+  background-repeat: repeat;
+  position: relative;
+
+  img{
+      height:200px;
+      border-style: outset;
+      border-width: 7px;
+      border-color: coral;
+      margin: 24px;
+  }
+
+  .circleOne{
+    width: 50px;
+    height: 50px;
+    background-color: #336666;
+    border-radius: 100%;
+    position: absolute;
+    top:25px;
+    left:60px;
+    z-index: 2;
+    }
+
+    .circleTwo{
+        width: 25px;
+        height: 25px;
+        background-color: #9966cc;
+        border-radius: 100%;
+        position: absolute;
+        bottom:25px;
+        left:60px;
+        z-index: 2;
+    }
+
+    .circleThree{
+        width: 75px;
+        height: 75px;
+        background-color: #9966cc;
+        border-radius: 100%;
+        position: absolute;
+        top:25px;
+        right:60px;
+        z-index: 2;
+    }
+}
+
+.card{
+  position: relative;
+  max-width: 500px;
+  margin: 24px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.circle {
+    margin: 24px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	/* width and height can be anything, as long as they're equal */
+}
+
+/* Create the animation blocks */
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* Spinning, gradient circle; CSS only! */
+#advanced {
+	width: 200px;
+	height: 200px;
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #cc99cc 0%, #9966cc 100%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #cc99cc, #9966cc);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, #cc99cc 0%, #9966cc 100%);
+	
+	animation-name: spin; 
+	animation-duration: 3s; /* 3 seconds */
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+}
