@@ -4,6 +4,7 @@ import { withRouter } from "react-router";
 import theme from "./styles/theme";
 import Hero from "./components/hero/hero";
 import AboutMe from "./components/aboutMe/aboutMe";
+import JobHistory from "./components/jobHistory/jobHistory";
 
 require("./App.css");
 
@@ -14,6 +15,7 @@ class App extends Component {
         <div className="App">
           <Hero />
           <AboutMe />
+          <JobHistory />
         </div>
       </MuiThemeProvider>
     );
