@@ -16,6 +16,9 @@ class App extends Component {
           <Hero />
           <AboutMe />
           <JobHistory />
+          {/* 90s Gif style website, dancing baby */}
+          {/* TV Aerobics for job history ? */}
+          {/* TV Static for projects ? */}
         </div>
       </MuiThemeProvider>
     );
