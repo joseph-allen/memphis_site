@@ -8,11 +8,11 @@ class JobHistory extends Component {
   render() {
     return (
       <div className="jobHistory">
-        <div className="circleOne" />
-        <div className="circleTwo" />
-        <div className="circleThree" />
         <Grid container justify="center">
           <Grid item>
+            <h1 className="glitch" data-text="JobHistory">
+              JobHistory
+            </h1>
             <div className="card">
               <h3>Joe of all trades, master of some &trade;</h3>
               <ol>
@@ -24,9 +24,6 @@ class JobHistory extends Component {
                 <li>I sing, dance and play music</li>
               </ol>
             </div>
-          </Grid>
-          <Grid item>
-            <div id="advanced" className="circle" />
           </Grid>
         </Grid>
       </div>
