@@ -8,7 +8,6 @@ class Hero extends Component {
       // Code by Beatrize Agustin https://codepen.io/abeatrize/pen/yXzoMw
       <div className="hero">
         <div id="rugBackground" />
-
         <div id="rugMainBody">
           <div id="titleCard">
             <div className="jaggedShape1" />

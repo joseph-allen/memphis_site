@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
+import joe from "./assets/Joe.jpeg";
 
 import("./aboutMe.css");
-// import("./assets/Joe.jpeg");
 
 class AboutMe extends Component {
   render() {
@@ -13,7 +13,7 @@ class AboutMe extends Component {
         <div className="circleThree" />
         <Grid container justify="center">
           <Grid item>
-            <img src={require("./assets/Joe.jpeg")} alt="Italian Trulli" />
+            <img src={joe} alt="Joe on a mountain in a suit" />
           </Grid>
           <Grid item>
             <div className="card">

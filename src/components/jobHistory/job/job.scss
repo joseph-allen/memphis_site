@@ -1,0 +1,54 @@
+.job {
+  background-color: darkgreen;
+  border-top: 8px solid grey;
+  margin: 8px;
+  padding: 8px;
+  color: #20c20e;
+  font-family: "Courier New", Courier, monospace;
+  max-width: 800px;
+  width: 100vw;
+}
+
+// blinking cursor a la https://codepen.io/alandunning/pen/RWRrEW
+.text {
+  position: relative;
+  display: inline-block;
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -15px;
+  display: inline-block;
+  background-color: #20c20e;
+  vertical-align: top;
+  width: 10px;
+  height: 18px;
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
