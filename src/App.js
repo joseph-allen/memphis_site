@@ -5,8 +5,7 @@ import theme from "./styles/theme";
 import Hero from "./components/hero/hero";
 import AboutMe from "./components/aboutMe/aboutMe";
 import JobHistory from "./components/jobHistory/jobHistory";
-
-import champions from "./champions.mp3";
+import Music from "./components/music/music";
 
 require("./App.css");
 
@@ -16,15 +15,14 @@ class App extends Component {
       <MuiThemeProvider theme={theme}>
         <div className="App">
           <Hero />
-          <audio controls loop autoPlay>
-            <source src={champions} type="audio/mpeg" />
-            Your browser does not support the audio element.
-          </audio>
+          <Music />
+          {/* Move out into an Audio/Cassette component with aerobics graphic? */}
+
           <AboutMe />
           <JobHistory />
-          {/* Job History hacker */}
-          {/* 90s Gif style website, dancing baby */}
-          {/* TV Aerobics for job history ? */}
+          {/* Job History hacker, Add more information */}
+          {/* Skills section? Need an idea */}
+          {/* 90s Gif style website, dancing baby  for contact me */}
         </div>
       </MuiThemeProvider>
     );
