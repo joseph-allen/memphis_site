@@ -6,6 +6,7 @@ import Hero from "./components/hero/hero";
 import AboutMe from "./components/aboutMe/aboutMe";
 import JobHistory from "./components/jobHistory/jobHistory";
 import Music from "./components/music/music";
+import Skills from "./components/skills/skills";
 
 require("./App.css");
 
@@ -14,15 +15,15 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="App">
+          ar
+          {/* TODO: Add link to old website */}
           <Hero />
           <Music />
-          {/* Move out into an Audio/Cassette component with aerobics graphic? */}
-
           <AboutMe />
           <JobHistory />
-          {/* Job History hacker, Add more information */}
-          {/* Skills section? Need an idea */}
-          {/* 90s Gif style website, dancing baby  for contact me */}
+          <Skills />
+          {/* TODO: Skills section? Pac Man/Retro Games? */}
+          {/* TODO: 90s Gif style website, dancing baby  for contact me */}
         </div>
       </MuiThemeProvider>
     );
