@@ -8,7 +8,7 @@ import("./music.css");
 class Music extends Component {
   render() {
     return (
-      // Add palm trees
+      // TODO: Add palm trees
       <div className="music">
         <div className="mixtape">
           <div className="tag">

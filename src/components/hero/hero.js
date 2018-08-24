@@ -5,6 +5,7 @@ import("./hero.css");
 class Hero extends Component {
   render() {
     return (
+      // TODO: Replace pure CSS with SVG
       // Code by Beatrize Agustin https://codepen.io/abeatrize/pen/yXzoMw
       <div className="hero">
         <div id="rugBackground" />
