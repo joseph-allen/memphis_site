@@ -3,12 +3,19 @@
 .skills {
   background-color: black;
   padding: 24px;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
 }
 
 .skills h2 {
   font: 50px "Press Start 2P", cursive;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.skills ul li {
+  font: 32px "Press Start 2P", cursive;
   color: white;
   text-align: center;
   width: 100%;
