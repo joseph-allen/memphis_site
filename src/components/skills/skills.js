@@ -10,25 +10,25 @@ class Skills extends Component {
         <h2>SKILLS</h2>
         <ul>
           <li>
-            1. Fr0nt-3nd ............ 1200
+            1. Front-end ............ 1200
             <p>HTML, CSS, SCSS</p>
             <p>Javascript, React</p>
             <br />
           </li>
           <li>
-            2. Data Sc1ence .......... 900
+            2. Data Science .......... 900
             <p>Python, NumPy, Pandas</p>
             <p>R, SQL</p>
             <br />
           </li>
 
           <li>
-            3. Pr0j3ct Management .... 400
+            3. Project Management .... 400
             <p>Kanban, JIRA, Trello</p>
             <br />
           </li>
           <li>
-            4. Tools ........... 300
+            4. Tools ................. 300
             <p>Git, GitHub</p>
             <p>Netlify</p>
             <p>LaTeX</p>

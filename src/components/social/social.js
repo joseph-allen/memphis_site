@@ -46,7 +46,7 @@ class AboutMe extends Component {
             href="https://www.linkedin.com/in/josephrossallen/"
             className="menu-item"
           >
-            <i class="fab fa-linkedin-in" />
+            <i className="fab fa-linkedin-in" />
           </a>
         </nav>
 
