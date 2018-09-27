@@ -9,11 +9,38 @@ class Skills extends Component {
       <div className="skills">
         <h2>SKILLS</h2>
         <ul>
-          <li>1. Fr0nt-3nd ............ 1200</li>
-          <li>2. Data Sc1ence .......... 900</li>
-          <li>3. Pr0j3ct Management .... 400</li>
-          <li>4. Developm3nt ........... 300</li>
+          <li>
+            1. Fr0nt-3nd ............ 1200
+            <p>HTML, CSS, SCSS</p>
+            <p>Javascript, React</p>
+            <br />
+          </li>
+          <li>
+            2. Data Sc1ence .......... 900
+            <p>Python, NumPy, Pandas</p>
+            <p>R, SQL</p>
+            <br />
+          </li>
+
+          <li>
+            3. Pr0j3ct Management .... 400
+            <p>Kanban, JIRA, Trello</p>
+            <br />
+          </li>
+          <li>
+            4. Tools ........... 300
+            <p>Git, GitHub</p>
+            <p>Netlify</p>
+            <p>LaTeX</p>
+            <br />
+          </li>
         </ul>
+
+        <div className="pacman">
+          <div className="pacman-top" />
+          <div className="pacman-bottom" />
+          <div className="feed" />
+        </div>
       </div>
     );
   }

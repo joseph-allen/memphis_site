@@ -17,13 +17,15 @@ class App extends Component {
         <div className="App">
           ar
           {/* TODO: Add link to old website */}
+          {/* TODO: Replace Rugrats image for mobile */}
           <Hero />
           <Music />
           <AboutMe />
           <JobHistory />
           <Skills />
-          {/* TODO: Skills section? Pac Man/Retro Games? */}
+          {/* TODO: Project section */}
           {/* TODO: 90s Gif style website, dancing baby  for contact me */}
+          {/* TODO: Footer with social links */}
         </div>
       </MuiThemeProvider>
     );
