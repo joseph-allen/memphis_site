@@ -9,7 +9,9 @@ class AboutMe extends Component {
         {/* https://codepen.io/lbebber Lucas Bebber*/}
         <link
           rel="stylesheet"
-          href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+          href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous"
         />
         <nav className="menu">
           <input
@@ -25,20 +27,26 @@ class AboutMe extends Component {
             <span className="hamburger hamburger-3" />
           </label>
 
-          <a href="#" className="menu-item">
-            <i className="fa fa-bar-chart" />
+          <a href="https://github.com/joseph-allen" className="menu-item">
+            <i className="fab fa-github" />
           </a>
-          <a href="#" className="menu-item">
-            <i className="fa fa-plus" />
+          <a href="https://twitter.com/josephallen1234" className="menu-item">
+            <i className="fab fa-twitter" />
           </a>
-          <a href="#" className="menu-item">
-            <i className="fa fa-heart" />
+          <a
+            href="https://www.meetup.com/PyData-Manchester/"
+            className="menu-item"
+          >
+            <i className="fab fa-python" />
           </a>
-          <a href="#" className="menu-item">
+          <a href="mailto:joseph.allen.1994@hotmail.com" className="menu-item">
             <i className="fa fa-envelope" />
           </a>
-          <a href="#" className="menu-item">
-            <i className="fa fa-cog" />
+          <a
+            href="https://www.linkedin.com/in/josephrossallen/"
+            className="menu-item"
+          >
+            <i class="fab fa-linkedin-in" />
           </a>
         </nav>
 
