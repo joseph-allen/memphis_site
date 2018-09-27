@@ -7,6 +7,7 @@ import AboutMe from "./components/aboutMe/aboutMe";
 import JobHistory from "./components/jobHistory/jobHistory";
 import Music from "./components/music/music";
 import Skills from "./components/skills/skills";
+import Social from "./components/social/social";
 
 require("./App.css");
 
@@ -26,6 +27,7 @@ class App extends Component {
           {/* TODO: Project section */}
           {/* TODO: 90s Gif style website, dancing baby  for contact me */}
           {/* TODO: Footer with social links */}
+          <Social />
         </div>
       </MuiThemeProvider>
     );
